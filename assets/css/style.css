@@ -55,6 +55,11 @@ h2 {
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+h2 {
+  padding: 1.875rem 0 0.9375rem;
+  color: #4aaaa5;
+}
+
 
 span {
   color: #EAE9E9;
@@ -115,7 +120,8 @@ span {
   position: relative;
 }
 
-.main-about-section .container {
+.main-about-section .container,
+.contact-info-section .container {
   background-color: #ffffff;
   border: 1px solid #dddddd;
   margin-top: 1.875rem;
@@ -123,7 +129,31 @@ span {
   padding-left: 1.25rem;
 }
 
-.main-about-section h2 {
-  padding: 1.875rem 0 0.9375rem;
-  color: #4aaaa5;
+input,
+label {
+  display: block;
+  width: 98%;
+  margin-bottom: 10px;
+}
+
+label:first-child {
+  margin-top: 1.25rem;
+}
+
+button {
+  background-color: #4aaaa5;
+  margin-top: 10px;
+  border: none;
+  color: white;
+  padding: 8px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  traansition: background-color 0.2s;
+}
+
+button:visited,
+button:active {
+  background-color: #16A085;
 }
